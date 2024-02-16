@@ -3,7 +3,7 @@ import React from "react"
 export default function Header() {
     return (
         <header>
-            <div>
+            <div id="title-container">
                 <h1>AOT Memory Game</h1>
                 <p>Get points by clicking on an image
                     but do not click on any more than once!
