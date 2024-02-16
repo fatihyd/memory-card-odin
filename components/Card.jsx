@@ -18,12 +18,12 @@ export default function Card({ titanNumber }) {
     }
 
     return (
-        <div>
+        <div className="card">
             {titan && (
-                <button>
-                    <h2>{titan.name}</h2>
+                <>
                     <img src={getImageURL(titan.img)} alt={titan.name} />
-                </button>
+                    <p><strong>{titan.name}</strong></p>
+                </>
             )}
         </div>
     );

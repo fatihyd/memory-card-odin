@@ -3,3 +3,8 @@
 
 # Netlify Link
 ##
+
+# To-do
+## randomize image order (on start / every click)
+## get the score/game logic working
+## styling

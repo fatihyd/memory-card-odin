@@ -9,7 +9,7 @@ export default function Body() {
     }
 
     return (
-        <div id="body">
+        <div id="card-grid">
             {titanCards}
         </div>
     );
