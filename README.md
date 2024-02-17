@@ -2,9 +2,7 @@
 ## https://www.theodinproject.com/lessons/node-path-react-new-memory-card
 
 # Netlify Link
-##
+## https://memory-card-odin.netlify.app/
 
-# To-do
-## randomize image order (on start / every click)
-## get the score/game logic working
-## styling
+## I've used the following API
+## https://www.attackontitanapi.com/docs
