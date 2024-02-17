@@ -1,24 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
-export default function Card({ titanNumber }) {
-    const [titan, setTitan] = useState(null);
+export default function Card({ titan, id, handleClick }) {
+    /*
+        Card: 
+        This component represents an individual card. 
+        It should have a click handler that triggers a function in the parent component (CardGrid) to handle the game logic. 
+    */
 
-    useEffect(() => {
-        fetch("https://api.attackontitanapi.com/titans/")
-            .then(response => response.json())
-            .then(responseJSON => responseJSON.results)
-            .then(titans => {
-                setTitan(titans[titanNumber])
-            })
-    }, []);
-
+    // the img url from the api call is incorrect
+    // this function corrects it
     function getImageURL(url) {
         let parts = url.split(".png");
         return parts[0] + ".png";
     }
 
     return (
-        <div className="card">
+        <div className="card" id={id} onClick={() => handleClick(id)}>
             {titan && (
                 <>
                     <img src={getImageURL(titan.img)} alt={titan.name} />
