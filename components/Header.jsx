@@ -1,11 +1,6 @@
 import React from "react"
 
 export default function Header({ score, bestScore }) {
-    /*
-        Header: 
-        This component displays the score/best score. 
-        It should receive the current score and the best score as props from the App component and display them.
-    */
     return (
         <header>
             <div id="title-container">

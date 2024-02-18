@@ -1,12 +1,6 @@
 import React from "react";
 
 export default function Card({ titan, id, handleClick }) {
-    /*
-        Card: 
-        This component represents an individual card. 
-        It should have a click handler that triggers a function in the parent component (CardGrid) to handle the game logic. 
-    */
-
     // the img url from the api call is incorrect
     // this function corrects it
     function getImageURL(url) {
