@@ -4,7 +4,7 @@ export default function Header({ score, bestScore }) {
     return (
         <header>
             <div id="title-container">
-                <h1>AOT Memory Game</h1>
+                <h2>AOT Memory Game</h2>
             </div>
             <div id="score-container">
                 <p>Score: {score}</p>

@@ -22,26 +22,22 @@ header {
     background-color: #1d2133;
     margin-top: 0;
     margin-bottom: 40px;
-    font-size: x-large;
+    font-size: large;
 }
 
-#title-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 #card-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 40px;
 }
 
 .card {
     background-color: rgba(240, 160, 100, 0.8);
     color: white;
     font-size: large;
+    padding: 10px;
+    margin: 20px;
 }
 
 .card,
