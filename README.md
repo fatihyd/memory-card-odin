@@ -2,7 +2,7 @@
 ## https://www.theodinproject.com/lessons/node-path-react-new-memory-card
 
 # Netlify Link
-## https://memory-card-odin.netlify.app/
+## https://aot-memory-card-game.netlify.app/
 
 ## I've used the following API
 ## https://www.attackontitanapi.com/docs
